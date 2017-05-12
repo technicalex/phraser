@@ -18,3 +18,8 @@ Run the program on a text file using the following command:
 ```
 python phraser.py -i <inputfile>
 ```
+
+## Known Issues
+
+- Phraser detects and omits subphrases which are proper prefixes of phrase, but does not omit subphrases which are proper suffixes.
+- Phraser currently omits all punctuation, including punctuation which might differentiate between words (i.e. well vs we'll).
